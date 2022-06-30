@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tp1_customers:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tp1_customers</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tp1_customers-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tp1_customers:war exploded" />
+    </root>
+  </artifact>
+</component>
