@@ -8,7 +8,12 @@ import java.util.List;
 
 public class CustomerMetier implements ICustomerMetier{
 
-    private ICustomerDao dao = new CustomerDaoDump();
+
+    private ICustomerDao dao; //= new CustomerDaoDump();
+
+    public void setDao(ICustomerDao dao) {
+        this.dao = dao;
+    }
 
     @Override
     public Customer addCustomer(Customer customer) throws Exception {
