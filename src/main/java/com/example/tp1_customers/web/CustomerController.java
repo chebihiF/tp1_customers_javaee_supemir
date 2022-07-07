@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/customers")
+//@WebServlet("/customers")
 public class CustomerController extends HttpServlet {
 
     private ICustomerMetier metier = new CustomerMetier();
